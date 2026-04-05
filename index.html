@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Streaming Stats Dashboard</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <h1>StreamBoard</h1>
+      <p class="subtitle">Live social & streaming metrics</p>
+
+      <div class="controls">
+        <button id="refreshBtn">Refresh Data</button>
+      </div>
+
+      <div class="status-card">
+        <h3>Status</h3>
+        <p id="statusText">Ready</p>
+      </div>
+    </aside>
+
+    <main class="dashboard">
+      <header class="dashboard-header">
+        <div>
+          <h2>Creator Overview</h2>
+          <p>Track public stats from YouTube and Twitch</p>
+        </div>
+      </header>
+
+      <section class="cards-grid" id="cardsGrid">
+        <!-- Cards injected by JS -->
+      </section>
+
+      <section class="panel">
+        <h3>Platform Summary</h3>
+        <div id="summaryTable" class="summary-table"></div>
+      </section>
+    </main>
+  </div>
+
+  <script src="assets/js/config.js"></script>
+  <script src="assets/js/ui.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

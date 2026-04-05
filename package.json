@@ -1,0 +1,17 @@
+{
+  "name": "stream-stats-dashboard",
+  "version": "1.0.0",
+  "description": "Streaming dashboard with YouTube and Twitch stats",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Johannes",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1"
+  }
+}
