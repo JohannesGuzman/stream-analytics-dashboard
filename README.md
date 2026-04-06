@@ -66,7 +66,7 @@ stream-stats-dashboard/
 
 ## Setup
 ### 1. Clone the repository
-git clone https://github.com/JohannesGuzma/stream-stats-dashboard.git
+git clone https://github.com/JohannesGuzma/stream-analytics-dashboard.git
 cd stream-stats-dashboard
 ### 2. Install backend dependencies
 npm install
